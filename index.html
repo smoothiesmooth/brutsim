@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/hello.js"></script>
+</head>
+<body>
+    <p id="money" class="tag">Ваш счёт: 0$</p>
+    <p id="autoSlave" class="tag">Автоматический доход: 0$ в секунду</p>
+    <ul class="butli">
+        <li>
+            <button class="buts" id="click" onclick="oclick()" title="Добыча Денег"></button>
+            <div class="holder"><p>Подобрать пароль</p></div>
+        </li>
+        <li>
+            <button class="buts" id="uclick" onclick="uclick()" title="Пройти Курс"></button>
+            <div class="holder"><p>Пройти обучение. Увеличение награды за 1 клик</p></div>
+        </li>
+        <li>
+            <button class="buts" id="uuclick" onclick="uuclick()" title="Изучить шифр"></button>
+            <div class="holder"><p>Изучение нового шифрования. Увеличение награды за 1 клик</p></div>
+        </li>
+        <li>
+            <button class="buts" id="uslave" onclick="uslave()" title="Прокачать Софт"></button>
+            <div class="holder"><p>Покупка нового софта. Увеличение награды в 1 секунду</p></div>
+        </li>   
+        <li>
+            <button class="buts" id="win" onclick="win()" title="Завершить игру">1000000$</button>
+            <div class="holder"><p>Поехать на Гавайи. Победа</p></div>
+        </li>   
+    </ul>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
